@@ -11,6 +11,7 @@ public class Pattern_for_Loop {
         nst++;
         }
     }
+    // Changes made 
     public static void pattern1w(int n){
         int nst=1, id=1;
         while(id <= n){
