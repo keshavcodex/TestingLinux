@@ -1,6 +1,7 @@
 package practices;
 
 public class Pattern_for_Loop {
+    //Pattern 1
     public static void pattern1(int n){
         int nst=1;
         for(int id=1; id<=n ; id++){
@@ -11,6 +12,7 @@ public class Pattern_for_Loop {
         nst++;
         }
     }
+    //Pattern 1w
     public static void pattern1w(int n){
         int nst=1, id=1;
         while(id <= n){
@@ -24,6 +26,7 @@ public class Pattern_for_Loop {
             id++;
         }
     }
+    //pattern2
     public static void pattern2(int n){
         int nst=1;
         for(int id = 1; id <= n; id++){
@@ -35,6 +38,7 @@ public class Pattern_for_Loop {
             nst++;
         }
     }
+    //Pattern2w
     public static void pattern2w(int n){
         int nst=1, id=1;
         while(id <= n){
@@ -48,6 +52,7 @@ public class Pattern_for_Loop {
             id++;
         }
     }
+    //pattern3
     public static void pattern3(int n){
         int nst=1, nsp=n-1;
         for(int id = 1; id <= n; id++){
@@ -62,6 +67,7 @@ public class Pattern_for_Loop {
             nst++;
         }
     }
+    //Pattern3w
     public static void pattern3w(int n){
         int id=1, nst=1 , nsp= n-1;
         while(id<= n){
@@ -81,6 +87,7 @@ public class Pattern_for_Loop {
             id++;
         }
     }
+    //Pattern4 is here
     public static void pattern4(int n){
         int nst=1, nsp=n-1;
         for(int id=1; id<= n; id++){
@@ -95,6 +102,7 @@ public class Pattern_for_Loop {
             nst+=2;
         }
     }
+    //Pattern 4w is here
     public static void pattern4w(int n){
         int id=1, nst= 1, nsp= n-1;
         while(id <= n){
@@ -114,6 +122,7 @@ public class Pattern_for_Loop {
             id++;
         }
     }
+    //Pattern 5 is here 
     public static void pattern5(int n){
         int nst=1, nsp = n-1;
         for(int id=1; id<= 2*n-1 ; id++){
@@ -134,6 +143,7 @@ public class Pattern_for_Loop {
             }
         }
     }
+    //Pattern 5w is here
     public static void pattern5w(int n){
         int id = 1, nst = 1, nsp = n - 1;
         while (id <= 2 * n - 1) {
